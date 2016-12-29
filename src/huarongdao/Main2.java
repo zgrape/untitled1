@@ -10,7 +10,7 @@ import java.awt.event.*;
 public class Main2 extends JFrame implements MouseListener,KeyListener,ActionListener {
    Main3 person[] =new Main3[10];
     JButton left, right, above,below;
-    JButton restart=new JButton("重新开始");
+    JButton restart=new JButton("重新 开始");
     public Main2() {
         init();
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
